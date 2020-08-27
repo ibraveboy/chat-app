@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "wicktalk",
+    "slug": "wicktalk",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "translucent": true,
+      "package": "com.ers.wicktalk",
+      "versionCode": 1
+    },
+    "android": {
+      "package": "com.ers.wicktalk",
+      "versionCode": 1
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ers.wicktalk",
+      "buildNumber": "1.0.0"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    }
+  }
+}
